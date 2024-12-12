@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TGA Bingo</title>
+    <link rel="icon" type="image/png" href="tgalogo.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="bingo-title">The Game Awards</h1>
+    <div class="bingo-grid">
+        <div class="bingo-column">B</div>
+        <div class="bingo-column">I</div>
+        <div class="bingo-column">N</div>
+        <div class="bingo-column">G</div>
+        <div class="bingo-column">O</div>
+    </div>
+    <div class="button-container">
+        <button class="generate-button">Generate</button>
+        <input type="text" id="seed-input" placeholder="Enter seed (optional)">
+        <button class="print-button" onclick="window.print()">Print</button>
+    </div>
+    <div class="current-seed" id="current-seed">Seed: </div>
+    <div class="rules">
+        <p>Rules:</p>
+        <p>1. Have fun!</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
